@@ -1,0 +1,451 @@
+* {
+  font-family: arial;
+}
+
+/* 12 A */
+
+.a-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.a-flex-1 {
+  background-color: #aedfff;
+  width: 200px;
+}
+
+.a-flex-2 {
+  background-color: #ffc1b9;
+  width: 75px;
+}
+
+/* 12 B */
+
+.b-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.b-flex-1 {
+  background-color: #aedfff;
+  width: 50px;
+}
+
+.b-flex-2 {
+  background-color: #ffc1b9;
+  flex: 1;
+}
+
+.b-flex-3 {
+  background-color: #aedfff;
+  width: 75px;
+}
+
+/* 12 C */
+
+.c-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.c-flex-item {
+  background-color: #ffc1b9;
+}
+
+/* 12 D */
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid gray;
+  border-width: 1px;
+  align-items: center;
+  height: 50px;
+}
+
+.d-flex-1 {
+  background-color: #ffc1b9;
+}
+
+/* 12 E */
+
+.e-box {
+  width: 300px;
+  border: solid rgb(179, 179, 179);
+  box-shadow: 0px 0px 5px -2px;
+  border-width: 1px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.e-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px 8px 12px;
+}
+
+.e-a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.e-a:hover {
+  color: rgb(0, 119, 255);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.e-p {
+  padding: 3px 10px;
+  color: white;
+  background-color: rgb(0, 119, 255);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* 12 F */
+.f-box {
+  background-color: rgb(121, 82, 179);
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.f-box-home {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+
+
+.f-box-input {
+  color: gray;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 15px;
+  width: 140vh;
+  font-size: 14px;
+  padding-left: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 25px;
+  transition: 2s;
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -o-transition: 2s;
+}
+
+.f-box-home:hover, :focus {
+  box-shadow: 0;
+  text-shadow: 0px 0px 3px white;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.f-box-btn {
+  cursor: pointer;
+  background-color: rgb(120, 82, 178);
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+
+.f-box-input:hover, :focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 0px white;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.f-box-btn:active {
+  cursor: pointer;
+  background-color: rgb(120, 82, 178);
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+.f-box-btn:hover {
+  transition: 0.2s;
+  color: rgb(120, 82, 178);
+  background-color: white;
+  border-color: white;
+  box-shadow: 0px 0px 10px 0px white;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+/* 12 G */
+
+.g-box {
+  width: 450px;
+
+  border: solid rgb(180, 180, 180);
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* no night mode / light mode: delete every additional selector .g-box:hover ... and 
+set only the .g-box:hover selector */
+
+/* .f-box:hover light mode */
+.g-box:hover {
+  border-color: rgb(181, 181, 181);
+  background-color: #ffffff;
+  box-shadow: 0px 0px 7px -2px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+/* .f-box:hover night mode, or ctrl + slash ( / ) */
+.g-box:hover {
+  border-color: black;
+  background-color: #1f1f1f;
+  box-shadow: 0px 0px 20px -2px;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.g-box:hover .g-name {
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.g-box:hover .g-name:hover {
+  color: rgb(190, 190, 190);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.g-box:hover .g-p {
+  color: rgb(158, 158, 158);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.g-box:hover .btn-follow {
+  background-color: rgb(21, 68, 255);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.g-box:hover .btn-follow:hover {
+  background-color: rgb(62, 101, 255);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.g-box:hover .btn-follow:active {
+  background-color: rgb(114, 142, 255);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.g-box:hover .g-profile-img:hover {
+  transition: 0.5s;
+  box-shadow: 0px 0px 5px -0px rgb(74, 74, 74);
+  filter: brightness(90%);
+  -webkit-filter: brightness(90%);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.g-profile-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.g-profile-img {
+  margin-right: 15px;
+  object-fit: cover;
+  width: 65px;
+  height: 65px;
+  filter: none;
+  transition: 0.5s;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  -webkit-filter: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.g-profile-img:hover {
+  transition: 0.5s;
+  box-shadow: 0px 0px 5px -1px;
+  filter: brightness(90%);
+  -webkit-filter: brightness(90%);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.g-profile-user {
+  width: 275px;
+}
+
+.g-name {
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.g-name:hover {
+  transition: 0.2s;
+  color: rgb(98, 98, 98);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.g-p {
+  color: rgb(121, 121, 121);
+  margin: 0;
+}
+
+.g-desc {
+  padding-bottom: 7px;
+  font-size: 20px;
+}
+
+.g-category {
+  padding: 0;
+  padding-bottom: 0;
+  font-size: 17px;
+}
+
+.btn-follow {
+  background-color: rgb(81, 156, 255);
+  color: white;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.btn-follow:hover {
+  transition: 0.2s;
+  background-color: #0066ff;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}

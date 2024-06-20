@@ -1,0 +1,220 @@
+button {
+  cursor: pointer;
+}
+
+.btn-uber {
+  padding: 12px;
+  background-color: black;
+  opacity: 1;
+  transition: 0.5s;
+  color: white;
+  border: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.btn-uber:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+}
+
+.btn-amazon {
+  background-color: rgb(255, 216, 20);
+  padding: 10px 50px 10px 50px;
+  border: none;
+  transition: 0.5s;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.btn-amazon:hover {
+  background-color: rgb(241, 206, 3);
+  transition: background 0.5s ease-in-out;
+  -webkit-transition: background 0.5s ease-in-out;
+  -moz-transition: background 0.5s ease-in-out;
+  -ms-transition: background 0.5s ease-in-out;
+  -o-transition: background 0.5s ease-in-out;
+}
+
+.btn-github {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  /*padding: 6.5px 20px 10px 20px;
+  */padding: 10px 20px 10px 20px;
+  text-shadow: none;
+  box-shadow: none;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition:0.5s;
+
+}
+
+.btn-github:hover {
+  transition: 0.2s;
+  text-shadow: 0px 0px 0.5px white;
+  box-shadow: 0px 1px 6px -2px black;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.btn-bootstrap-1 {
+  color: white;
+  background-color: rgb(121, 82, 179);
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.btn-bootstrap-1:hover {
+  background-color: rgb(109, 62, 179);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.btn-bootstrap-2 {
+  color: rgb(108, 117, 125);
+  background-color: white;
+  padding: 9px 20px 9px 20px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(108, 117, 125);
+  font-weight: bold;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.btn-bootstrap-2:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+.btn-linkedin-1 {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  border: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.btn-linkedin-1:hover {
+  background-color: rgb(19, 69, 120);
+  transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
+}
+
+.btn-linkedin-2 {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  font-weight: bold;
+  padding: 8.5px 20px 8.5px 20px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin: 5px;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+
+.btn-linkedin-2:hover {
+
+  border-width: 2px;
+  background-color: rgb(232, 239, 255);
+  transition: 0.1s ease-in-out;
+  -webkit-transition: 0.1s ease-in-out;
+  -moz-transition: 0.1s ease-in-out;
+  -ms-transition: 0.1s ease-in-out;
+  -o-transition: 0.1s ease-in-out;
+}
+
+.btn-exercise-1 {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  padding: 6px 20px;
+  margin-right: 7px;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.btn-exercise-2 {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  padding: 6px 30px;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.btn-exercise-1:hover, .btn-exercise-2:hover {
+  filter: brightness(95%);
+  -webkit-filter: brightness(95%);
+}

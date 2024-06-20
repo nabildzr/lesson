@@ -1,0 +1,120 @@
+body {
+    overflow: scroll;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn-uber {
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btn-amazon {
+    background-color: rgb(255, 216, 20);
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.btn-github {
+    background-color: rgb(46,164,79);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    /* padding: 6.5px 20px 10px 20px; */
+    padding: 10px 20px 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn-bootstrap-1 {
+    color: white;
+    background-color: rgb(121, 82, 179);
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.btn-bootstrap-2 {
+    color: rgb(108,117, 125);
+    background-color: white;
+    padding: 9px 20px 9px 20px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(108,117, 125);
+    font-weight: bold;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.btn-linkedin-1 {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    border: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.btn-linkedin-2 {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.btn-exercise-1 {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    padding: 6px 20px;
+    margin-right: 7px;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.btn-exercise-2 {
+    background-color: rgb(255, 164, 28);
+    color: black;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

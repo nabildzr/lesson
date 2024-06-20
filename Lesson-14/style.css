@@ -1,0 +1,275 @@
+/* 14 A */
+
+.fourteen-a-body {
+  height: 3000px;
+}
+
+.fourteen-a-div {
+  position: fixed;
+  background-color: black;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* 14 B */
+.fourteen-b-body {
+  height: 3000px;
+}
+
+.fourteen-b-div {
+  color: white;
+  background-color: green;
+  width: 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+/* 14 C */
+.fourteen-c-body {
+  height: 3000px;
+}
+
+.fourteen-c-div {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* 14 D */
+
+.fourteen-d-body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 3000px;
+}
+
+.fourteen-d-div {
+  color: white;
+  background-color: green;
+  width: 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.fourteen-d-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: flex;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourteen-d-box {
+  background-color: white;
+  width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+
+.fourteen-d-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.fourteen-d-content {
+  margin-bottom: 15px;
+}
+
+/* 14 E */
+.fourteen-e-body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 3000px;
+}
+
+.fourteen-e-div {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+.fourteen-e-container {
+  margin-right: 100px;
+  margin-left: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fourteen-e-img-conf {
+  width: 50px;
+  height: 50px;
+}
+
+.fourteen-e-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 500px;
+  object-fit: cover;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  -ms-border-radius: 500px;
+  -o-border-radius: 500px;
+}
+
+.fourteen-e-name {
+  font-size: 20px;
+  font-weight: bold;
+  flex: 1;
+  margin-left: 10px;
+}
+
+.fourteen-e-btn-add-friend {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(35, 100, 238);
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 6px;
+}
+
+.fourteen-e-btn-message {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(216, 216, 216);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* 14 E */
+.fourteen-f-body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 3000px;
+}
+
+.fourteen-f-div {
+  position: fixed;
+  display: flex;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.fourteen-f-sidebar-one {
+  background-color: rgb(36, 36, 36);
+}
+
+.fourteen-f-margin-sidebar-one {
+  margin: 15px;
+  margin-top: 20px;
+}
+
+.fourteen-f-second-sidebar {
+  background-color: rgb(54, 54, 54);
+  width: 210px;
+}
+
+.fourteen-f-margin-second-sidebar {
+  margin: 30px 20px;
+}
+
+.fourteen-f-img-conf {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.fourteen-f-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.fourteen-f-server-head {
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 25px;
+  line-height: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.fourteen-f-server-ln {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(209, 209, 209);
+  margin: 0;
+  flex: 1;
+  transition: 0.5s;
+}
+
+.fourteen-f-server-bar {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(126, 126, 126);
+  margin: 0;
+  
+}
+
+.fourteen-f-server-channel {
+  font-size: 19px;
+  color: rgb(126, 126, 126);
+}
+
+.fourteen-f-server-channel-p {
+  margin-bottom: 22px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.fourteen-f-server-ln:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.fourteen-f-server-channel-p:hover,
+.fourteen-f-server-bar:hover {
+  color: rgb(180, 180, 180);
+  transition: 0.5s;
+
+}
+
+.fourteen-f-server-channel-p:active {
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}

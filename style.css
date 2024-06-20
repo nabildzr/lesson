@@ -1,0 +1,274 @@
+* {
+  font-family: arial;
+}
+
+/* var */
+:root {
+  --primary: #1a2130;
+  --primary-blur: rgb(26, 33, 48, 0.6);
+  --secondary: #fdffe2;
+  --three: #273550;
+  --four: #83b4ff;
+
+  --font-small: 1rem;
+  --font-medium: 1.5rem;
+  --font-large: 2rem;
+}
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+/* styling */
+.body-index {
+  background-color: var(--three);color: var(--secondary);
+}
+
+main {
+  margin-top: 100px;
+  /* Adjust based on the actual height of your navbar */
+}
+
+.container {
+  margin-top: 65px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 65px;
+  margin: 65px 100px;
+  /* Adjusted for clear separation from the 55px header */
+  /* Additional styles for the container can go here */
+}
+
+nav {
+  display: flex;
+  margin-bottom: 20px;
+  top: 0;
+  width: 100%;
+  padding: 0 15px;
+  height: 70px;
+  font-size: var(--font-medium);
+  background-color: var(--primary-blur);
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--secondary);
+  box-shadow: 0 0 100px black;
+}
+
+.nav-index {
+  position: fixed;
+}
+
+.left a {
+  font-weight: bold;
+}
+
+.right a {
+  margin-left: 20px;
+}
+
+.right {
+  display: flex;
+}
+
+.hover-text {
+  transition: 0.3s;
+}
+
+.hover-text:hover {
+  color: var(--four);
+  text-shadow: 0px 0px 4px var(--four);
+  transition: 0.3s;
+}
+
+.nav-burger:focus {
+  color: var(--four);
+  transition: 0.3s;
+}
+
+.nav-burger {
+  display: none;
+  cursor: pointer;
+  background: none;
+  line-height: 0;
+  border: none;
+  color: var(--secondary);
+  font-size: var(--font-medium);
+}
+
+.dropdown {
+  
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .link-1 {
+    display: none;
+  }
+
+  .dropdown-content {
+    display: none;
+    /* Ensure dropdown content is hidden by default */
+  }
+
+  .nav-burger {
+    display: block;
+  }
+
+  .right a {
+    margin-left: 0;
+  }
+}
+
+.dropdown-content a {
+  margin: 0;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  border: 1px solid var(--primary);
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0px;
+  top: 34px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--primary);
+}
+
+.dropdown-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* main */
+
+/*  HERO */
+.hero {
+  margin-bottom: 35px;
+}
+
+.title-hero {
+  font-size: var(--font-large);
+  font-weight: bold;
+}
+
+.sub-hero {
+  font-size: var(--font-small)
+}
+
+
+
+/* LESSON TABLE */
+table,
+th,
+td {
+  border: 1px solid var(--secondary);
+  border-collapse: collapse;
+}
+
+.table-responsive {
+  overflow-x: auto; /* Enables horizontal scrolling */
+}
+
+table {
+  background-color: var(
+    --primary
+  ); /* Light grey background for the container */
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: var(--four) Light grey background */
+  width: 100%; /* Makes the table width responsive */
+  border-collapse: collapse;
+}
+
+td,
+th {
+  width: 1000px;
+  text-align: center;
+}
+
+td {
+  height: 35px;
+}
+
+@media screen and (max-width: 700px) {
+  table,
+  th,
+  td {
+    width: auto; /* Adjust width to be more flexible */
+    padding: 5px; /* Reduce padding to save space */
+  }
+
+  td,
+  th {
+    /* Optional: Reduce font size for smaller screens */
+    font-size: 0.8rem;
+  }
+
+  .container {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  th,
+  td {
+    font-size: 0.7rem; /* Even smaller font size */
+  }
+}
+
+.table-hover:hover {
+  background-color: var(--secondary);
+}
+
+.table-hover:hover a,
+.table-hover:hover td {
+  color: var(--primary);
+}
+
+.table-hover:hover .table-text-hover {
+  text-shadow: 0 0 4px var(--primary);
+}
+
+.table-text-hover {
+  color: var(--four);
+  text-shadow: 0 0 4px var(--four);
+  transition: 0.3s;
+}
+.table-text-hover:hover {
+  font-weight: bold;
+  color: var(--primary);
+  text-shadow: 0px 0px 4px var(--primary);
+  transition: 0.3s;
+}

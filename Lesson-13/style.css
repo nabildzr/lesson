@@ -1,0 +1,333 @@
+@import url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* 13 A */
+
+.a-flex-box {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.a-flex-1 {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffc1b9;
+  width: 100px;
+}
+
+.a-item-1 {
+  color: white;
+  background: black;
+}
+
+.a-flex-2 {
+  background-color: #aedfff;
+  width: 200px;
+}
+
+/* #aedfff */
+/* #ffc1b9 */
+
+/* 13 B */
+
+.b-flex {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.b-flex-1 {
+  background-color: #ffc1b9;
+  width: 100px;
+}
+
+.b-flex-2 {
+  background-color: #aedfff;
+  width: 200px;
+}
+
+.b-row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.b-row-2-item {
+  color: white;
+  background-color: black;
+}
+
+/* 13 C */
+.c-gmail {
+  width: 535px;
+  padding: 10px 0px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px -4px;
+}
+
+.c-p-head {
+  color: rgb(129, 129, 129);
+  font-size: 16px;
+  margin: 0px;
+  margin-left: 18px;
+  margin-bottom: 10px;
+}
+
+.c-user {
+  background-color: white;
+  text-decoration: none;
+  padding-top: 14px;
+  padding-bottom: 17px;
+  display: flex;
+  flex-direction: row;
+}
+
+.c-user:hover {
+  filter: brightness(95%);
+  -webkit-filter: brightness(95%);
+}
+
+.c-content {
+  width: 525px;
+}
+
+.c-user-img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 16.5px;
+  margin-right: 10px;
+}
+
+.c-img {
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  cursor: pointer;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.c-p-1 {
+  white-space: nowrap;
+  text-overflow: inherit;
+  overflow: hidden;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  font-size: 23px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.c-p-1-span {
+  color: rgb(121, 121, 121);
+  font-weight: normal;
+  font-size: 19px;
+  margin-right: 20px;
+}
+
+.c-p-2 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  width: 335px;
+  white-space: nowrap;
+  text-overflow: inherit;
+  overflow: hidden;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.c-p-3 {
+  width: 395px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 19px;
+  margin: 0;
+  color: rgb(121, 121, 121);
+}
+
+/* 13 D & E */
+
+.gmail-lot {
+  width: 535px;
+  padding: 10px 0px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px -4px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* 13 F */
+
+.f-twitter {
+
+  width: 415px;
+  display: flex;
+  flex-direction: row;
+}
+
+.f-img-cf {
+  margin-right: 12px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.f-name {
+  font-size: 16.5px;
+  margin-top: 1px;
+  margin-bottom: 3px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.f-left-name {
+  margin: 0;
+  font-weight: bold;
+  color: black;
+  margin-right: 5px;
+}
+
+.f-right-name {
+  color: rgb(99, 99, 99);
+  margin: 0;
+}
+
+.f-content {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+/* .f-video-preview {
+  width: 340px;
+  height: 95px;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;    
+}
+
+.f-thumb-prev {
+  border: none;
+  background-color: rgb(131, 41, 41);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  object-fit: cover;
+  max-width: 95px; 
+  max-height: 95px;
+
+}
+
+.f-thumb {
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  object-fit: cover;  
+width: 95px; 
+height: 95px;
+}
+
+.f-video-lay{
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+}
+
+.f-video-website {
+  font-weight: 400;
+  display: inline-block;
+  margin: 0;
+  height: 0;
+  line-height: 0px;
+  color: rgb(70, 70, 70) 
+}
+.f-video-title {
+  margin:0;
+  margin-top: 3px;
+}
+
+ */
+
+
+
+.f-video-preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.f-thumbnail-column {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 10px;
+}
+
+.f-video-info-column {
+  flex: 1;
+}
+
+.f-video-website {
+  color: rgb(111, 111, 111);
+  margin-bottom: 3px;
+}
+
+.f-video-title {
+  line-height: 22px;
+}
+
+
+
+.f-left-name:hover {
+  color: rgb(59, 59, 59);
+}
+
+.f-right-name:hover {
+  text-decoration: underline;
+}
+
+.f-img-cf:hover {
+  filter: brightness(90%);
+  -webkit-filter: brightness(90%);
+  cursor: pointer;
+}
+
+.f-video-website:hover {
+  text-decoration: underline;
+  cursor: pointer
+}

@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+
+button {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+hr {
+  background-color: black;
+  color: black;
+  border: none;
+  padding-top: 3px;
+}
+
+.square {
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+}
+
+.rounded {
+  border-radius: 50px;
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.input-7d {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 10px 10px 10px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+/* .input-1::-webkit-input-placeholder {
+    font-weight: bold;
+} */
+
+.input-7e {
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 200px 10px 10px;
+  width: 200px;
+  text-overflow: ellipsis;
+  box-shadow: 0px 1px 4px -2px black;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/* .input-2::-webkit-input-placeholder {
+  
+} */
+
+.input-7f-linkedin {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.f7-p-1 {
+  margin: 0;
+  font-weight: 500;
+  color: rgb(100, 100, 100);
+  margin-bottom: 3px;
+  font-size: 11px;
+}
+
+.f7-p-2 {
+  margin: 0;
+  font-weight: 500;
+  color: rgb(100, 100, 100);
+  margin-bottom: 12px;
+  font-size: 11px;
+}
+
+.input-7f-linkedin input {
+  border: solid;
+  margin-bottom: 10px;
+  padding: 5px 76px 5px 10px;
+  border-color: rgb(130, 130, 130);
+  border-width: 1px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.input-7f-linkedin button {
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 12px 88.5px 12px 88.5px;
+  background-color: rgb(43, 124, 206);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: 0.5s;
+  box-shadow: 0px 1px 4px -2px black;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.input-7f-linkedin button:hover {
+  background-color: rgb(0, 87, 158);
+  box-shadow: 0px 1px 8px -2px black;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.textbox-7g-twitter {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "San Francisco",
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-img {
+  vertical-align: middle;
+  border-radius: 50px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  width: 45px;
+  height: 45px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  filter: none;
+  -webkit-filter: none;
+}
+
+.profile-img:hover {
+  filter: brightness(90%);
+  transition: filter 0.2s ease-in-out;
+  -webkit-transition: filter 0.2s ease-in-out;
+  -moz-transition: filter 0.2s ease-in-out;
+  -ms-transition: filter 0.2s ease-in-out;
+  -o-transition: filter 0.2s ease-in-out;
+}
+
+.after-image {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.input-textbox-twitter {
+  border: none;
+  padding-right: 70px;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.input-textbox-twitter:focus {
+  outline: none;
+}
+
+.btn-textbox-twitter {
+  background-color: rgb(53, 163, 231);
+  color: white;
+  margin: 0;
+  padding: 5px 15px 5px 15px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: ease-in-out;
+  -webkit-transition: ease-in-out;
+  -moz-transition: ease-in-out;
+  -ms-transition: ease-in-out;
+  -o-transition: ease-in-out;
+}
+
+.btn-textbox-twitter:hover {
+  background-color: rgb(47, 152, 218);
+  transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
+}

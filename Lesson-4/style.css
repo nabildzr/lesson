@@ -1,0 +1,87 @@
+/* 4 H */
+.pagination-back {
+  margin: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.num-row {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.pagination-next {
+  margin: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* 4 I */
+
+.stretch-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  transition: padding-top 1s, padding-bottom 1s, padding-left 1s,    padding-right 1s;
+  -webkit-transition: padding-top 1s, padding-bottom 1s, padding-left 1s,    padding-right 1s;
+  -moz-transition: padding-top 1s, padding-bottom 1s, padding-left 1s,    padding-right 1s;
+  -ms-transition: padding-top 1s, padding-bottom 1s, padding-left 1s,    padding-right 1s;
+  -o-transition: padding-top 1s, padding-bottom 1s, padding-left 1s,    padding-right 1s;
+}
+
+.stretch-button:hover {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+/* 4 J */
+
+.three-d-click {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px black;
+}
+
+.three-d-click:active {
+  box-shadow: none;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+/* 4 K */
+
+.mg-pd {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 8px 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    transition: padding 0.2s, margin 0.2s;
+    -webkit-transition: padding 0.2s, margin 0.2s;
+    -moz-transition: padding 0.2s, margin 0.2s;
+    -ms-transition: padding 0.2s, margin 0.2s;
+    -o-transition: padding 0.2s, margin 0.2s;
+}
+
+.mg-pd:hover {
+    padding-right: 18px;
+    padding-left: 18px;
+    margin-left: 0px;
+    margin-right: 0px;
+}

@@ -1,0 +1,169 @@
+.fifteen-body {
+  font-family: arial;
+  height: 3000px;
+}
+
+/* 15 A */
+
+.fifteen-a-div {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+/* 15 B */
+
+.fifteen-b-div {
+  background-color: gray;
+  height: 180px;
+  width: 320px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+/* 15 C */
+
+.fifteen-c-close-button {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  top: -18px;
+  left: -18px;
+  display: flex;
+  justify-content: center;
+}
+.fifteen-c-box {
+  background-color: gray;
+  height: 180px;
+  width: 320px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* 15 D */
+
+.fifteen-d-close-button {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  top: -18px;
+  left: -18px;
+  display: flex;
+  justify-content: center;
+}
+.fifteen-d-box {
+  background-color: gray;
+  height: 180px;
+  width: 320px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.fifteen-d-timestamp {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+
+}
+
+/* 15 E */
+
+.fifteen-e-box {
+    position: relative;
+    display: inline-block;
+}
+
+.fifteen-e-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    filter: none;
+}
+
+.fifteen-e-off {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    padding: 8px 12px;
+}
+
+/* 15 F */
+
+.fifteen-f-box {
+    position: relative;
+    display: inline-block;
+
+}
+
+.fifteen-f-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.fifteen-f-off {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    padding: 8px 12px;
+}
+
+.fifteen-f-body-add-to-cart {
+    display: flex;
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.8);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fifteen-f-btn-add-to-cart {
+    background-color: white;
+    border: 1px solid;
+    padding: 7.5px 15px;
+    cursor: pointer;
+    filter: none;
+    -webkit-filter: none;
+}
+
+.fifteen-f-btn-add-to-cart:hover  {
+    filter: contrast(80%);
+    -webkit-filter: contrast(80%);
+}

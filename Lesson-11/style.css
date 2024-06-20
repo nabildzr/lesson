@@ -1,0 +1,178 @@
+.a-grid {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.a-1 {
+  background-color: #aedfff;
+}
+
+.a-2 {
+  background-color: #ffc1b9;
+}
+
+.b-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.b-item-1 {
+  background-color: #aedfff;
+}
+
+.b-item-2 {
+  background-color: #ffc1b9;
+}
+
+.item {
+  background-color: pink;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.c-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.c-col {
+  background-color: #ffc1b9;
+}
+
+.name-a {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+  height: 20px;
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+}
+
+.img-pointer {
+  margin: 0;
+  width: 0;
+  height: 0;
+}
+
+.profile {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.profile-picture {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.profile-picture:hover {
+  transition: filter 0.2s ease-in-out;
+  filter: brightness(90%);
+  -webkit-filter: brightness(90%);
+  -webkit-transition: filter 0.2s ease-in-out;
+  -moz-transition: filter 0.2s ease-in-out;
+  -ms-transition: filter 0.2s ease-in-out;
+  -o-transition: filter 0.2s ease-in-out;
+}
+
+.name {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 8px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.name:hover {
+  color: rgb(88, 88, 88);
+}
+
+.friend {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.friend-img {
+  height: 28px;
+  width: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+  margin-right: 4px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+}
+
+.friend-text {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+}
+
+.friend-text:hover {
+  text-decoration: underline;
+}
+
+.btn-follow {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: 0.2s;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.btn-follow:hover {
+  background-color: rgb(5, 150, 203);
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+.btn-follow:active {
+  background-color: rgb(76, 112, 212);
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+}

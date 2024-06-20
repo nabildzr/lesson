@@ -1,0 +1,210 @@
+button {
+  cursor: pointer;
+}
+
+/* 5A */
+.satu {
+  font-family: Tahoma;
+}
+
+/* 5B */
+.dua {
+  font-family: Arial;
+}
+
+.h1-5b {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.i-5b {
+  color: red;
+  font-size: 17px;
+}
+
+/* 5C */
+.tiga {
+  font-family: Verdana;
+}
+
+.h1-5c {
+  margin-bottom: 2px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.p-5c-one {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  color: gray;
+}
+
+.btn-tiga {
+  background-color: rgb(36, 152, 36);
+  border: none;
+  border-radius: 5px;
+  padding: 7px 15px 7px 15px;
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+}
+
+.btn-tiga:hover {
+  background-color: rgb(33, 128, 33);
+  transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out;
+}
+
+/* 5D & 5E */
+
+/* SAME POSITION & SAME FONT */
+.empat,
+.lima {
+  text-align: center;
+  font-family: Arial;
+}
+
+/* 5D */
+.h1-5d {
+  text-align: center;
+}
+.p-5d {
+  text-align: center;
+  font-size: 18.5px;
+}
+
+/* <a></a> 5D */
+.empat a {
+  text-decoration: none;
+}
+
+/* 5E */
+.p-5e-one {
+  color: rgb(235, 100, 11);
+  font-size: 13px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.p-5e-two {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.p-5e-three {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.p-5e-four {
+  padding-top: 7px;
+  margin: 0;
+}
+
+.btn-lima {
+  background-color: rgb(76, 76, 255);
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px 7px 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/* 5F */
+.p-5f-one {
+  margin-top: 5px;
+  margin-bottom: 1px;
+  font-size: 40px;
+}
+
+.p-5f-two {
+  margin: 0;
+  padding-top: 2.5px;
+  color: rgb(1, 106, 1);
+  font-size: 20px;
+}
+
+.p-5f-three {
+  margin: 0;
+  padding-top: 10px;
+  color: rgb(82, 82, 82);
+  font-size: 20px;
+}
+
+/* 5F & 5G, SAME FONT BUT DIFFERENT POSITION THAN 5D & 5E . */
+.enam,
+.tujuh {
+  font-family: Arial;
+}
+
+/* 5G */
+/* CURSOR TOUCH */
+.username-tag,
+.username,
+.status {
+  text-decoration: none;
+  cursor: pointer;
+}
+.p-5g-one {
+  font-size: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.p-5g-two {
+  margin: 0;
+  padding-top: 7.5px;
+  padding-bottom: 0;
+}
+.p-5g-three {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+
+
+/* USER = FreeCodeCamp.org */
+.username {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+/* IN TEXT USER TAG */
+.username-tag {
+  color: rgb(41, 134, 240);
+}
+
+/* DATE "1h" */
+.status {
+  color: rgb(66, 66, 66);
+  text-decoration: none;
+}
+
+/* HOVER */
+.username:hover,
+.username-tag:hover,
+.status:hover {
+  text-decoration: underline;
+}
